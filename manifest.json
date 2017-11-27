@@ -6,6 +6,10 @@
       "images": [
         {
           "sharedTags": {
+            "3.5":{},
+            "4.6.2":{},
+            "4.7":{},
+            "4.7.1":{}
           },
           "platforms": [
             {
@@ -13,8 +17,7 @@
               "os": "windows",
               "osVersion": "10.0.14393",
               "tags": {
-                "dotnetapp-3.5-windowsservercore-ltsc2016": {},
-                "3.5":{}
+                "dotnetapp-3.5-windowsservercore-ltsc2016": {}
               }
             },
             {
@@ -22,8 +25,7 @@
               "os": "windows",
               "osVersion": "10.0.14393",
               "tags": {
-                "dotnetapp-4.6.2-windowsservercore-ltsc2016": {},
-                "4.6.2":{},
+                "dotnetapp-4.6.2-windowsservercore-ltsc2016": {}
               }
             },
             {
@@ -31,8 +33,7 @@
               "os": "windows",
               "osVersion": "10.0.14393",
               "tags": {
-                "dotnetapp-4.7-windowsservercore-ltsc2016": {},
-                "4.7":{}
+                "dotnetapp-4.7-windowsservercore-ltsc2016": {}
               }
             },
             {
@@ -41,7 +42,6 @@
               "osVersion": "10.0.14393",
               "tags": {
                 "dotnetapp-4.7.1-windowsservercore-ltsc2016": {},
-                "4.7.1":{},
                 "latest":{}
               }
             },
@@ -50,8 +50,7 @@
               "os": "windows",
               "osVersion": "10.0.16299",
               "tags": {
-                "dotnetapp-3.5-windowsservercore-1709": {},
-                "3.5":{}
+                "dotnetapp-3.5-windowsservercore-1709": {}
               }
             },
             {
@@ -60,7 +59,6 @@
               "osVersion": "10.0.16299",
               "tags": {
                 "dotnetapp-4.7.1-windowsservercore-1709": {},
-                "4.7.1":{},
                 "latest":{}
               }
             }
