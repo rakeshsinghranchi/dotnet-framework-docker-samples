@@ -1,15 +1,12 @@
 {
   "repos": [
     {
-      "name": "microsoft/dotnet-framework-samples",
+      "name": "rakeshmsft/dotnet-framework-samples",
       "readmePath": "README.DockerHub.md",
       "images": [
         {
           "sharedTags": {
-            "3.5":{},
-            "4.6.2":{},
-            "4.7":{},
-            "4.7.1":{}
+            "3.5":{}
           },
           "platforms": [
             {
@@ -21,13 +18,35 @@
               }
             },
             {
+              "dockerfile": "dotnetapp-3.5/Dockerfile",
+              "os": "windows",
+              "osVersion": "10.0.16299",
+              "tags": {
+                "dotnetapp-3.5-windowsservercore-1709": {}
+              }
+            }
+          ]
+        },
+        {
+          "sharedTags": {
+            "4.6.2":{}
+          },
+          "platforms": [
+            {
               "dockerfile": "dotnetapp-4.6.2/Dockerfile",
               "os": "windows",
               "osVersion": "10.0.14393",
               "tags": {
                 "dotnetapp-4.6.2-windowsservercore-ltsc2016": {}
               }
-            },
+            }
+          ]
+        },
+        {
+          "sharedTags": {
+            "4.7":{}
+          },
+          "platforms": [
             {
               "dockerfile": "dotnetapp-4.7/Dockerfile",
               "os": "windows",
@@ -35,22 +54,21 @@
               "tags": {
                 "dotnetapp-4.7-windowsservercore-ltsc2016": {}
               }
-            },
+            }
+          ]
+        },
+        {
+          "sharedTags": {
+            "4.7.1":{},
+            "latest":{}
+          },
+          "platforms": [
             {
               "dockerfile": "dotnetapp-4.7.1/Dockerfile",
               "os": "windows",
               "osVersion": "10.0.14393",
               "tags": {
-                "dotnetapp-4.7.1-windowsservercore-ltsc2016": {},
-                "latest":{}
-              }
-            },
-            {
-              "dockerfile": "dotnetapp-3.5/Dockerfile",
-              "os": "windows",
-              "osVersion": "10.0.16299",
-              "tags": {
-                "dotnetapp-3.5-windowsservercore-1709": {}
+                "dotnetapp-4.7.1-windowsservercore-ltsc2016": {}
               }
             },
             {
@@ -58,8 +76,7 @@
               "os": "windows",
               "osVersion": "10.0.16299",
               "tags": {
-                "dotnetapp-4.7.1-windowsservercore-1709": {},
-                "latest":{}
+                "dotnetapp-4.7.1-windowsservercore-1709": {}
               }
             }
           ]
